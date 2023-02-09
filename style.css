@@ -70,6 +70,7 @@ header {
 /* my failure section styling */
 .my-failure-section {
     display: flex;
+    justify-content: space-around;
     max-width: 1140px;
     margin: 0 auto;
     padding: 130px 20px 0;
@@ -116,4 +117,102 @@ header {
     width: 20px;
 }
 
-/*  */
+/* my plans styling */
+.my-plans {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 20px 0;
+}
+
+.my-plans-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-plan-icon {
+    max-width: 92px;
+    margin: 0 auto 24px;
+}
+
+.my-plan-icon img {
+    max-width: 100%;
+}
+
+.my-plans-box h4 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 16px;
+}
+.my-plans-box p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+/* footer style */
+
+footer {
+    width: 100%;
+    background-color: #151414;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 20px;
+    overflow: hidden;
+}
+
+.footer-content {
+    max-width: 485px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer-content p {
+    color: #FFFFFF;
+    margin-bottom: 16px
+}
+.footer-content p.footer-description {
+    margin-bottom: 24px;
+}
+
+/* social section style */
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.social-icons li {
+    margin-right: 16px;
+}
+.social-icons li a {
+    width: 46px;
+    height: 46px;
+    display: block;
+}
+
+.social-icons li a img {
+    width: 100%;
+}
+
+
+/* footer form style */
+
+
+
+
