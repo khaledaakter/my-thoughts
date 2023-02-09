@@ -20,11 +20,17 @@ button {
     text-align: center;
 }
 
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
 /* header style */
 header {
     width: 100%;
     margin: 0;
-    padding: 20px;
     height: 800px;
     background-image: url('images/banner.png');
     background-repeat: no-repeat;
@@ -34,14 +40,16 @@ header {
 
 .main-header {
     max-width: 1140px;
-    margin: 216px auto 0;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
 }
 
 .header-content {
     width: 525px;
     float: right;
     text-align: right; 
-
+    margin-top: 155px;
 }
 .header-content h1 {
     margin-bottom: 24px;
@@ -51,11 +59,59 @@ header {
     color: #151414;
 }
 
-.header-content p {
-    
+.header-content p {    
     margin-bottom: 32px;
 }
 .header-content button.primary-btn {
     background-color: #F15B22;
     color: #fff;
+}
+
+/* my failure section styling */
+.my-failure-section {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 20px;
+}
+
+.failure-image {
+    overflow: hidden;
+    width: 50%;
+    padding-right: 100px;
+}
+
+.failure-image img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.failure-content {
+    max-width: 416px;
+}
+
+.section-title {
+    margin-bottom: 24px;
+}
+
+.failure-content p {
+    margin-bottom: 16px;
+}
+
+.failure-content ul {
+    padding: 0;
+    list-style: none;
+    
+}
+.failure-content li {    
+    padding: 0 0 0 35px;
+    background-image: url('images/check.png');
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.failure-content li::marker {
+    color: green;
+    font-weight: 600;
+    width: 20px;
 }
