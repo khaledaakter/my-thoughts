@@ -155,6 +155,98 @@ header {
     margin-bottom: 16px;
 }
 
+/* social section style */
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.social-icons li {
+    margin-right: 16px;
+}
+.social-icons li a {
+    width: 46px;
+    height: 46px;
+    display: block;
+}
+
+.social-icons li a img {
+    width: 100%;
+}
+
+/* positive-think style */
+.positive-think {
+    
+    max-width: 1140px;
+    margin: 0 auto 130px;   
+    background-image: url('images/watch.png'); 
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.positive-think-inner {        
+    background-color: rgb(241,91,34);
+    background: linear-gradient(90deg, rgba(241, 91, 34, 0.64) 0%, rgba(241, 91, 34, 0.58) 10%, rgba(241,91,34,0) 100%);    
+}
+
+.positive-think-content {
+    padding: 60px;
+    max-width: 460px;
+}
+
+.positive-think-content h3 {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.positive-think-content button {
+    color: #F15B22;
+    background-color: #ffffff;
+}
+
+
+/* mission vision style */
+
+.mission-vision {
+    background-color: #eaeaea; 
+    background-image: url('images/mission-vision.png');
+    background-repeat: no-repeat;
+    background-position: center left;   
+}
+
+.mission-vision-inner {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 100px 0 130px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.mission-vision-inner h3 {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    display: inline-block;
+    border-bottom: 2px solid #F15B22;
+}
+
+.mission-vision-inner p {
+    color: #222;
+}
+
+.mission-box,
+.vision-box,
+.all-about {
+    max-width: 270px;
+}
+
 /* footer style */
 
 footer {
@@ -191,62 +283,6 @@ footer {
 .footer-content p.footer-description {
     margin-bottom: 24px;
 }
-
-/* social section style */
-
-.social-icons {
-    list-style: none;
-    display: flex;
-    padding: 0;
-}
-.social-icons li {
-    margin-right: 16px;
-}
-.social-icons li a {
-    width: 46px;
-    height: 46px;
-    display: block;
-}
-
-.social-icons li a img {
-    width: 100%;
-}
-
-/* positive-think style */
-.positive-think {
-    
-    max-width: 1140px;
-    margin: 0 auto 130px;   
-    background-image: url('images/watch.png'); 
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-.positive-think-inner {
-        
-    background-color: rgb(241,91,34);
-    background: linear-gradient(90deg, rgba(241,91,34,1) 0%, rgba(241,91,34,0.6755077030812324) 18%, rgba(241,91,34,0) 100%);
-    
-}
-
-.positive-think-content {
-    padding: 60px;
-    max-width: 460px;
-}
-
-.positive-think-content h3 {
-    margin-bottom: 24px;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
-    color: #FFFFFF;
-}
-
-.positive-think-content button {
-    color: #F15B22;
-    background-color: #ffffff;
-}
-
 
 
 /* footer form style */
