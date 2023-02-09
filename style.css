@@ -72,7 +72,7 @@ header {
     display: flex;
     max-width: 1140px;
     margin: 0 auto;
-    padding: 130px 20px;
+    padding: 130px 20px 0;
 }
 
 .failure-image {
@@ -105,7 +105,7 @@ header {
 }
 .failure-content li {    
     padding: 0 0 0 35px;
-    background-image: url('images/check.png');
+    background-image: url('icons/check.png');
     background-position: left;
     background-repeat: no-repeat;
 }
@@ -115,3 +115,5 @@ header {
     font-weight: 600;
     width: 20px;
 }
+
+/*  */
