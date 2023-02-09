@@ -155,25 +155,6 @@ header {
     margin-bottom: 16px;
 }
 
-/* social section style */
-
-.social-icons {
-    list-style: none;
-    display: flex;
-    padding: 0;
-}
-.social-icons li {
-    margin-right: 16px;
-}
-.social-icons li a {
-    width: 46px;
-    height: 46px;
-    display: block;
-}
-
-.social-icons li a img {
-    width: 100%;
-}
 
 /* positive-think style */
 .positive-think {
@@ -282,6 +263,26 @@ footer {
 }
 .footer-content p.footer-description {
     margin-bottom: 24px;
+}
+
+/* social section style */
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.social-icons li {
+    margin-right: 16px;
+}
+.social-icons li a {
+    width: 46px;
+    height: 46px;
+    display: block;
+}
+
+.social-icons li a img {
+    width: 100%;
 }
 
 
