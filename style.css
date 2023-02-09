@@ -1,3 +1,4 @@
+/* global style */
 * {
     margin: 0;
     font-family: 'Work Sans', sans-serif;  
@@ -14,4 +15,28 @@ button {
     height: 64px;
     border: none;
     border-radius: 8px;
+}
+
+/* header style */
+header {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    padding: 20px;
+    height: 800px;
+    background-color: #ccc;
+    background-image: url('images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;    
+}
+
+.header-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: right;
 }
